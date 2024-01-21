@@ -1,0 +1,109 @@
+<mxfile host="65bd71144e">
+    <diagram id="Po6sY97f1Nse2-Fd43iV" name="Page-1">
+        <mxGraphModel dx="1146" dy="1840" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="VPC" style="sketch=0;outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_vpc;strokeColor=#879196;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#FFFFFF;dashed=0;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="65" width="730" height="520" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Availability zone" style="sketch=0;outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_availability_zone;strokeColor=#545B64;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#545B64;dashed=1;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="200" width="300" height="340" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Availability zone" style="sketch=0;outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_availability_zone;strokeColor=#545B64;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#545B64;dashed=1;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="200" width="300" height="340" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="10.0.0.0/16" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="80" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.vpc_nat_gateway;fillColor=#F58534;gradientColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="360.5" y="38" width="69" height="72" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="インターネットゲートウェイ" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="335" y="-10" width="124.75" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#ffffff;fillColor=#60a917;strokeColor=#2D7600;" vertex="1" parent="1">
+                    <mxGeometry x="113" y="252" width="220" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#ffffff;fillColor=#60a917;strokeColor=#2D7600;" vertex="1" parent="1">
+                    <mxGeometry x="493" y="400" width="220" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#ffffff;fontStyle=1;fillColor=#60a917;strokeColor=#2D7600;" vertex="1" parent="1">
+                    <mxGeometry x="110" y="400" width="220" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#ffffff;fontStyle=1;fillColor=#60a917;strokeColor=#2D7600;" vertex="1" parent="1">
+                    <mxGeometry x="490" y="250" width="220" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="パブリックサブネット" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="110" y="252" width="130" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="パブリックサブネット" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="493" y="252" width="130" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="プライベートサブネット" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="110" y="400" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" style="edgeStyle=none;html=1;fontColor=#FFFFFF;" edge="1" parent="1" source="18" target="12">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" style="edgeStyle=none;html=1;fontColor=#FFFFFF;" edge="1" parent="1" source="18" target="12">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="プライベートサブネット" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="490" y="400" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="ルートテーブル" style="whiteSpace=wrap;html=1;aspect=fixed;fontColor=#000000;fillColor=#f0a30a;strokeColor=#BD7000;" vertex="1" parent="1">
+                    <mxGeometry x="306.5" y="270" width="54" height="54" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="ルートテーブル" style="whiteSpace=wrap;html=1;aspect=fixed;fontColor=#000000;fillColor=#f0a30a;strokeColor=#BD7000;" vertex="1" parent="1">
+                    <mxGeometry x="459.75" y="280" width="54" height="54" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="ルートテーブル" style="whiteSpace=wrap;html=1;aspect=fixed;fontColor=#000000;fillColor=#f0a30a;strokeColor=#BD7000;" vertex="1" parent="1">
+                    <mxGeometry x="316.5" y="418" width="54" height="54" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="10.0.0.0/24" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="115" y="270" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="10.0.1.0/24" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="125" y="418" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="10.0.2.0/24" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="513.75" y="270" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="10.0.3.0/24" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="500" y="418" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="" style="endArrow=classic;startArrow=classic;html=1;fontColor=#FFFFFF;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="21" target="9">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="330" y="160" as="sourcePoint"/>
+                        <mxPoint x="380" y="110" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="30" value="" style="endArrow=classic;startArrow=classic;html=1;fontColor=#FFFFFF;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" target="22">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="414" y="99" as="sourcePoint"/>
+                        <mxPoint x="464" y="49" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="31" value="" style="endArrow=classic;html=1;fontColor=#FFFFFF;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" target="33">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="330" y="418" as="sourcePoint"/>
+                        <mxPoint x="380" y="368" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="32" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.vpc_nat_gateway;fillColor=#F58534;gradientColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="290" width="45" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="NATゲートウェイ" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="110" y="304" width="125" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="" style="endArrow=classic;html=1;fontColor=#FFFFFF;" edge="1" parent="1" target="9">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="100" y="290" as="sourcePoint"/>
+                        <mxPoint x="150" y="240" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
