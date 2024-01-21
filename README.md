@@ -1,1 +1,2 @@
 # aws_training
+AWS勉強用の構成図やメモ等
